@@ -1,0 +1,121 @@
+/* .indexNav {
+  width: 600px;
+  height: 300px;
+  background-color: blue;
+}
+
+.indexNav2 {
+  width: 39.55%;
+  min-width: 400px;
+  max-width: 700px;
+  background-color: aquamarine;
+}
+
+#indexNav2Child {
+  width: 50%;
+  height: 200px;
+  background-color: black;
+} */
+
+#heading h1 {
+  font-size: 2.3vw;
+  font-family: Arial, sans-serif;
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid lightgray;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: inline-block;
+}
+
+#heading {
+  text-align: center;
+}
+
+#subHeading {
+  line-height: 1.4;
+  font-size: 1.7vw;
+}
+
+.small {
+  color: mediumseagreen;
+}
+
+.paragraph {
+  display: inline-block;
+  width: 54%;
+  position: relative;
+  bottom: 21px;
+  padding-left: 8px;
+  font-size: 1.071vw;
+  /* height: 58%; */
+}
+
+#chart {
+  width: 45%;
+  max-width: 100%;
+  min-width: 300px;
+  /* max-height: 400px; 
+  min-height: 300px */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .indexBody {
+    background-color: whitesmoke;
+  }
+
+  .paragraph {
+    color: deeppink;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 576px) {
+  .indexBody {
+    background-color: snow;
+  }
+
+  .paragraph {
+    color: magenta;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .indexBody {
+    background-color: aliceblue;
+  }
+
+  .paragraph {
+    color: crimson;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .indexBody {
+    background-color: lavenderblush;
+  }
+
+  .paragraph {
+    color: cornflowerblue;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .indexBody {
+    background-color: honeydew;
+  }
+
+  .paragraph {
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .indexBody {
+    background-color: ghostwhite;
+  }
+
+  .paragraph {
+    color: chocolate;
+  }
+}
